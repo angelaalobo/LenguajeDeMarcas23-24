@@ -30,8 +30,10 @@
     <tree latin_name="Quercus ilex">
         <common_name>Holm Oak</common_name>
         <vegetation>Around 25 meters</vegetation>
-        <shape_and_structure>Spherical or irregularly elliptical crown. Straight main trunk. Twisted branches</shape_and_structure>
-        <spring_color>Silvery in young leaves. In mature leaves, dark green upper side, silvery underside</spring_color>
+        <shape_and_structure>Spherical or irregularly elliptical crown. Straight main trunk. Twisted
+            branches</shape_and_structure>
+        <spring_color>Silvery in young leaves. In mature leaves, dark green upper side, silvery
+            underside</spring_color>
         <frost_resistance>Strong frost resistance (down to -15°C)</frost_resistance>
     </tree>
 </trees>
