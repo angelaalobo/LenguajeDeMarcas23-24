@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE store>
-<store>
-    
-</store>
+<!DOCTYPE store_products>
+<store_products>
+    <product name="Laptop">
+        <category>Electronics</category>
+        <features>
+            <feature name="Brand" value="Dell" />
+            <feature name="Processor" value="Intel Core i7" />
+            <feature name="RAM" value="16GB" />
+            <feature name="Storage" value="512GB SSD" />
+        </features>
+    </product>
+    <product name="T-shirt">
+        <category>Clothing</category>
+        <features>
+            <feature name="Brand" value="Nike" />
+            <feature name="Size" value="Medium" />
+            <feature name="Color" value="Black" />
+            <feature name="Material" value="Cotton" />
+        </features>
+    </product>
+    <product name="Coffee Maker">
+        <category>Kitchen Appliances</category>
+        <features>
+            <feature name="Brand" value="Keurig" />
+            <feature name="Type" value="Single Serve" />
+            <feature name="Capacity" value="12 Cups" />
+            <feature name="Color" value="Silver" />
+        </features>
+    </product>
+</store_products>

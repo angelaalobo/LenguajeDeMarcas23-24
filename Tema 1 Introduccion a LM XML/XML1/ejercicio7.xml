@@ -1,1 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE music_catalog>
+<music_catalog>
+    <song>
+        <title attribute="Bohemian Rhapsody">Queen</title>
+        <artist attribute="Queen">1975</artist>
+        <release_year attribute="1975">Rock</release_year>
+        <genres>
+            <genre>Rock</genre>
+            <genre>Progressive Rock</genre>
+        </genres>
+    </song>
+    <song>
+        <title attribute="Shape of You">Ed Sheeran</title>
+        <artist attribute="Ed Sheeran">2017</artist>
+        <release_year attribute="2017">Pop</release_year>
+        <genres>
+            <genre>Pop</genre>
+            <genre>RandB</genre>
+        </genres>
+    </song>
+    <song>
+        <title attribute="Smells Like Teen Spirit">Nirvana</title>
+        <artist attribute="Nirvana">1991</artist>
+        <release_year attribute="1991">Grunge</release_year>
+        <genres>
+            <genre>Grunge</genre>
+            <genre>Alternative Rock</genre>
+        </genres>
+    </song>
+    <song>
+        <title attribute="Despacito">Luis Fonsi, Daddy Yankee</title>
+        <artist attribute="Luis Fonsi, Daddy Yankee">2017</artist>
+        <release_year attribute="2017">Latin</release_year>
+        <genres>
+            <genre>Latin</genre>
+            <genre>Reggaeton</genre>
+        </genres>
+    </song>
+</music_catalog>
