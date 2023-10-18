@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shopping_center>
+<shopping_center>
+    <store>
+        <name>Bershka</name>
+        <plots_it_occupy>2</plots_it_occupy>
+        <number_of_square_meters>80</number_of_square_meters>
+        <contact_details_manager first_name="Arturo" last_name="Pérez" phone="648523515" Social_Security_number="284225356147"></contact_details_manager>
+    </store>
+    <store>
+        <name>PullandBear</name>
+        <plots_it_occupy>2</plots_it_occupy>
+        <number_of_square_meters>80</number_of_square_meters>
+        <contact_details_manager first_name="Pedro" last_name="Xímenez" phone="627543581" Social_Security_number="289546385716"></contact_details_manager>
+    </store>
+    <store>
+        <name>Stardivarius</name>
+        <plots_it_occupy>2</plots_it_occupy>
+        <number_of_square_meters>80</number_of_square_meters>
+        <contact_details_manager first_name="Pablo" last_name="Motos" phone="622020135" Social_Security_number="286535201020"></contact_details_manager>
+    </store>
+    <store>
+        <name>Sprinter</name>
+        <plots_it_occupy>3</plots_it_occupy>
+        <number_of_square_meters>120</number_of_square_meters>
+        <contact_details_manager first_name="María" last_name="Ortega" phone="692356021" Social_Security_number="285163924572"></contact_details_manager>
+    </store>
+    <store>
+        <name>JD</name>
+        <plots_it_occupy>2</plots_it_occupy>
+        <number_of_square_meters>80</number_of_square_meters>
+        <contact_details_manager first_name="Carlos" last_name="López" phone="654823020" Social_Security_number="285163020174"></contact_details_manager>
+    </store>
+    <store>
+        <name>Decimas</name>
+        <plots_it_occupy>3</plots_it_occupy>
+        <number_of_square_meters>120</number_of_square_meters>
+        <contact_details_manager first_name="Manuel" last_name="Pineda" phone="633022545" Social_Security_number="285104235840"></contact_details_manager>
+    </store>
+    <store>
+        <name>Pandora</name>
+        <plots_it_occupy>1</plots_it_occupy>
+        <number_of_square_meters>40</number_of_square_meters>
+        <contact_details_manager first_name="Carla" last_name="Sevilla" phone="628541424" Social_Security_number="286366620145"></contact_details_manager>
+    </store>
+    <store>
+        <name>Lefties</name>
+        <plots_it_occupy>3</plots_it_occupy>
+        <number_of_square_meters>120</number_of_square_meters>
+        <contact_details_manager first_name="Isabel" last_name="Estepona" phone="677829214" Social_Security_number="283020214578"></contact_details_manager>
+    </store>
+    <store>
+        <name>Kiabi</name>
+        <plots_it_occupy>4</plots_it_occupy>
+        <number_of_square_meters>160</number_of_square_meters>
+        <contact_details_manager first_name="Alejandra" last_name="García" phone="654256534" Social_Security_number="289635241474"></contact_details_manager>
+    </store>
+    <store>
+        <name>Primor</name>
+        <plots_it_occupy>4</plots_it_occupy>
+        <number_of_square_meters>160</number_of_square_meters>
+        <contact_details_manager first_name="Patricia" last_name="Nogales" phone="654251534" Social_Security_number="280001236547"></contact_details_manager>
+    </store>
+</shopping_center>

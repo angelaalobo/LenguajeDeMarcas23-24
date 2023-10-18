@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book>
+<book>
+    <title>Viaje al centro de la Tierra</title>
+    <number_of_pages>200</number_of_pages>
+    <author>Julio Verne</author>
+    <chapter number_of_chapter="1" start_page="1" end_page="20">Capítulo 1</chapter>
+    <chapter number_of_chapter="2" start_page="21" end_page="45">Capítulo 2</chapter>
+    <chapter number_of_chapter="3" start_page="46" end_page="82">Capítulo 3</chapter>
+    <chapter number_of_chapter="4" start_page="83" end_page="106">Capítulo 4</chapter>
+    <chapter number_of_chapter="5" start_page="107" end_page="140">Capítulo 5</chapter>
+    <chapter number_of_chapter="6" start_page="141" end_page="200">Capítulo 6</chapter>
+</book>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car_dealership>
+<car_dealership>
+    <brand>
+        <name>Audi</name>
+        <country_of_origin>spain</country_of_origin>
+        <car license_plate="2367 ADX" year_of_registration="2018" model="U2" number_of_seats="5" engine_displacement="100"></car>
+        <car license_plate="4563 LMG" year_of_registration="2023" model="U6" number_of_seats="5" engine_displacement="150"></car>
+    </brand>
+    <brand>
+        <name>Aiways</name>
+        <country_of_origin>spain</country_of_origin>
+        <car license_plate="3754 JMD" year_of_registration="2005" model="L7" number_of_seats="7" engine_displacement="158"></car>
+        <car license_plate="6489 FHB" year_of_registration="2020" model="Q5" number_of_seats="5" engine_displacement="140"></car>
+    </brand>
+    <brand>
+        <name>Aston Martin</name>
+        <country_of_origin>spain</country_of_origin>
+        <car license_plate="4155 POE" year_of_registration="2010" model="A4" number_of_seats="5" engine_displacement="125"></car>
+        <car license_plate="1568 EMG" year_of_registration="2022" model="A7" number_of_seats="7" engine_displacement="130"></car>
+    </brand>
+    <brand>
+        <name>Citroën</name>
+        <country_of_origin>spain</country_of_origin>
+        <car license_plate="7351 GMK" year_of_registration="2009" model="P9" number_of_seats="7" engine_displacement="130"></car>
+        <car license_plate="4328 SHR" year_of_registration="2021" model="C5" number_of_seats="7" engine_displacement="147"></car>
+    </brand>
+    <brand>
+        <name>BMW</name>
+        <country_of_origin>spain</country_of_origin>
+        <car license_plate="2835 AUV" year_of_registration="2007" model="M6" number_of_seats="5" engine_displacement="160"></car>
+        <car license_plate="4289 QHW" year_of_registration="2020" model="Q10" number_of_seats="7" engine_displacement="156"></car>
+    </brand>
+</car_dealership>
