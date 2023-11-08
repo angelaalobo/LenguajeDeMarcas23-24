@@ -1,0 +1,6 @@
+<!ELEMENT football-league (game+)>
+<!ELEMENT game (local-team, visiting-team, goals-local-team, goals-visiting-team)*>
+<!ELEMENT local-team (#PCDATA)>
+<!ELEMENT visiting-team (#PCDATA)>
+<!ELEMENT goals-local-team (#PCDATA)>
+<!ELEMENT goals-visiting-team (#PCDATA)>

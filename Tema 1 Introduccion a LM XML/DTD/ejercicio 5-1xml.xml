@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE football-league SYSTEM "ejercicio 5-1.dtd">
+<football-league>
+    <game>
+        <local-team>Nottingham Preesa</local-team>
+        <visiting-team>Inter from Mitent</visiting-team>
+        <goals-local-team>0</goals-local-team>
+        <goals-visiting-team>1</goals-visiting-team>
+
+    </game>
+    <game>
+        <local-team>Vodka Juniors</local-team>
+        <visiting-team>Sparta da Risa</visiting-team>
+        <goals-local-team>3</goals-local-team>
+        <goals-visiting-team>3</goals-visiting-team>
+        
+    </game>
+    <game>
+        <local-team>Water of Munich</local-team>
+        <visiting-team>Esteaua is from the tap</visiting-team>
+        <goals-local-team>4</goals-local-team>
+        <goals-visiting-team>2</goals-visiting-team>
+        
+    </game>
+</football-league>
