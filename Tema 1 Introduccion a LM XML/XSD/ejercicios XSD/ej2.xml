@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej2.xsd" orderid="SO12345">
+  <orderperson>John Pitterson</orderperson>
+  <shipto>
+    <name>Jane Martins</name>
+    <address>123 Main St</address>
+    <city>Milán</city>
+    <country>Italy</country>
+  </shipto>
+  <item>
+    <title>PinyPon</title>
+    <note>Dolls</note>
+    <quantity>2</quantity>
+    <price>19.99</price>
+  </item>
+  <item>
+    <title>Doll's House</title>
+    <quantity>1</quantity>
+    <price>29.99</price>
+  </item>
+</shiporder>
