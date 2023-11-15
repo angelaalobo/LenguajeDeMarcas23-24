@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej2.dtd" type="application/xml-dtd"?>
+<!DOCTYPE libro>
+<libro Catalogo="ElMundo">
+    <titulo>Viaje al centro de la Tierra</titulo>
+    <Seccion>Fantasía</Seccion>
+    <contenido>
+        <capitulo materia="XML">
+            <tema>Historia</tema>
+            <tema>Aventura</tema>
+        </capitulo>
+        <Separacion/>
+        <capitulo materia="XML">
+            <tema>Aventuras</tema>
+            <tema>Historia</tema>
+        </capitulo>
+    </contenido>
+    <Copyright>Tiene de parte de Julio Verne</Copyright>
+</libro>

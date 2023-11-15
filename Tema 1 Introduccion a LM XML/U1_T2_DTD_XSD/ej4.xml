@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase>
+<clase>
+    <profesor codigo="123">Dr. Smith</profesor>
+    <alumnos>
+        <alumno>
+            <nombre>Pedro</nombre>
+            <edad>14</edad>
+            <curso id="234">1ASIR</curso>
+        </alumno>
+    </alumnos>
+</clase>
