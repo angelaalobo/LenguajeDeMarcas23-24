@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+</html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+</body>
+<fieldset style="background-color:grey ;">
+    <legend style="border: 1px solid black; background-color: white; ">Datos personales</legend>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre">
+                </td>
+                <td>
+                    <label for="apelidos">Apellidos:</label>
+                    <br>
+                    <input type="text" id="apellidos">
+                </td>
+                <td>
+                    <label for="dni">DNI:</label>
+                    <br>
+                    <input type="text" id="dni">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="localidad nacimiento">Localidad Nacimiento:</label>
+                    <br>
+                    <input type="text" id="localidad nacimiento">
+                </td>
+                <td>
+                    <label for="provincia">Provincia:</label>
+                    <br>
+                    <select id="provincia">
+                        <option value="1" disabled>-Selecciona-</option>
+                        <option value="2">Cádiz</option>
+                        <option value="3">Sevilla</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="fecha nacimiento">Fecha Nacimiento:</label>
+                    <br>
+                    <input type="date" id="fecha nacimiento">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="direccion">Dirección:</label>
+                    <br>
+                    <input type="text" id="direccion">
+                </td>
+                <td>
+                    <label for="codig postal">Código Postal:</label>
+                    <br>
+                    <input type="text" id="codigo postal">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</fieldset>
+<fieldset style="background-color:rgb(230, 167, 167) ;">
+    <legend style="border: 1px solid black; background-color: white; ">Forma de Acceso</legend>
+    <dl>
+        <dt><input type="radio">Direct</dt>
+        <dd><input type="radio">Bachillerato LOGSE, Modalidad <input type="text" id="BACH_LOGSE"></dd>
+        <dd><input type="radio">Bachillerato Experimental</dd>
+        <dd><input type="radio">COU. Opción <input type="text" id="COU"></dd>
+        <dd><input type="radio">FP2</dd>
+        <dd><input type="radio">Otros (especifico) <input type="text"></dd>
+        <dt><input type="radio">Prueba Libre</dt>
+    </dl>
+</fieldset>
+<fieldset style="background-color:rgb(212, 89, 109) ;">
+    <legend style="border: 1px solid black; background-color: white; ">Documentos Adjuntados</legend>
+    <Table>
+        <tr>
+            <td>
+                <label for="Fotocopia"><input type="checkbox">Fotocopia DNI</label>
+            </td>
+            <td>
+                <label for="Certificado"><input type="checkbox">Certificado Academico</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="Otros"><input type="checkbox">Otros Documentos (especifique) <input type="file"></label>
+            </td>
+        </tr>
+    </Table>
+</fieldset>
+<br>
+<input type="submit" name="Enviar Solicitud" id="Enviar Solicitud" value="Enviar Solicitud">
