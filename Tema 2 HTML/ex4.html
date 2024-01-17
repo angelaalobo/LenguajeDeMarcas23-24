@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+</head>
+
+<body>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 1px solid rgb(216, 204, 33)
+        }
+        body,
+        td,
+        th {
+            width: 400px
+        }
+    </style>
+    <table>
+        <thead style="background-color: rgb(216, 204, 33);">
+            <tr>
+                <td>
+                    <h4>Leave Form</h4>
+                </td>
+                <td>
+                    <select name="More Actions" id="More Actions" style="background-color: rgb(216, 204, 33);">
+                        <option value="More Actions">More Actions</option>
+                    </select>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h5>Employee Email</h5>
+                </td>
+                <td>
+                    <select name="Employee Email" id="Employee Email" disabled>
+                        <option value="Employee Email">appuser@zohocreator.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Employee Id</h5>
+                </td>
+                <td>
+                    <textarea name="Employee Id" id="Employee Id" cols="20" rows="1" disabled>232</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Employee name</h5>
+                </td>
+                <td>
+                    <textarea name="Employee Name" id="Employee Name" cols="20" rows="1" disabled>apusser</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Designation</h5>
+                </td>
+                <td>
+                    <textarea name="Designation" id="Designation" cols="20" rows="1" disabled>Team Leader</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Leave type*</h5>
+                </td>
+                <td>
+                    <select name="Leave Type" id="Leave Type" required>
+                        <option value="Leave Type">-Select-</option>
+                        <option value="Leave Type">Chemistry</option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <h5>From*</h5>
+                </td>
+                <td>
+                    <input type="date" name="From" required>
+                    
+                    <img src="calendario.PNG" alt="" style="width: 20px;height: 20px;">[dd-MM-yy]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>To*</h5>
+                </td>
+                <td>
+                    <input type="date" name="To" required>
+                    <img src="calendario.PNG" alt="" style="width: 20px;height: 20px;">[dd-MM-yy]
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>No of Days</h5>
+                </td>
+                <td>
+                    <input type="number" name="No of Days">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Reasen</h5>
+                </td>
+                <td>
+                    <textarea name="Reasen" id="Reasen" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Submit" style="background-color:rgb(216, 204, 33);"><input type="reset" value="Reset" style="background-color:rgb(216, 204, 33);"></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
