@@ -1,0 +1,45 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.c1 {
+    background-color: red;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.c2 {
+    background-color: blue;
+}
+
+ul {
+    color: red;
+    text-align: left;
+}
+
+#c {
+    background-color: yellow;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.f2 {
+    background-color: grey;
+    font-size: 30px;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+#c3 {
+    font-size: 100%;
+    text-align: center;
+}
