@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudoselectores</title>
     <link rel="stylesheet" href="pseudoselectores.css">
 </head>
+
 <body>
-    
+    <a href="http://www.horario.es"><h6>HORARIO DE CLASE CURSO 2018-2019</h6></a>
+    <table>
+        <thead>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th class="viernes">Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora">8:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td class="hora">9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td class="hora">10:00</td>
+                <td colspan="5" class="recreo"><b>RECREO</b></td>
+
+            </tr>
+            <tr>
+                <td class="hora">10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td class="hora">11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form>
+        <label for="Email" id="Email">Email</label>
+        <input type="text" class="input" placeholder="Inserte email del destinatario"><br>
+        <input type="button" value="Enviar Horario">
+    </form>
 </body>
+
+</html>
+</body>
+
 </html>

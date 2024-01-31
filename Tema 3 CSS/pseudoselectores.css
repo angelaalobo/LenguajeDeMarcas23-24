@@ -1,0 +1,39 @@
+table,td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin:0px auto
+}
+
+a:link{
+    color: green;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+a:visited{
+    color:red
+}
+th::first-letter {
+    font-size: 200%;
+}
+.recreo{
+    text-align: center;
+    background-color: yellow;
+}
+.hora{
+    background-color: green;
+}
+.input:enabled{
+    border:1px solid red;
+    padding:5px;
+}
+#Email::after{
+    content: "*";
+    color: red;
+}
+.viernes:hover{
+    font-size: 200%;
+}
+form{
+    margin-left:110px;
+}
