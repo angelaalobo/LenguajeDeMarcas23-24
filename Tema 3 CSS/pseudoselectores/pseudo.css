@@ -1,0 +1,54 @@
+a:link{
+    color: green
+}
+a:visited{
+    color:red
+}
+input:disabled{
+    background-color: black;
+}
+input:enabled{
+    color: green;
+}
+input:focus{
+    height: 50px;
+}
+div label:hover{
+    font-size: 100px;
+}
+p:first-child{
+    color: green;
+}
+p:last-child{
+    color: yellow;
+}
+p:nth-child(2){
+    background-color: blue;
+}
+
+/* Para poner que solo a los pares se usa 2n o 'odd' y en los impares se usa 2n+1 o 'even'*/
+
+p:nth-child(2n){
+    background-color: pink;
+}
+
+p:first-of-type{
+    border: 1px solid black;
+}
+/* Se usa para el ultimo tipo de cada padre(por lo que se aplica si son de distinto padre */
+input:last-of-type{
+    background-color: grey;
+}
+p::first-letter{
+    border: 3px dashed red;
+    color:red
+}
+p::first-line{
+    color:burlywood
+}
+p::after{
+    content: "Leer Aqui";
+}
+p::before{
+    content: "AAAA";
+}
