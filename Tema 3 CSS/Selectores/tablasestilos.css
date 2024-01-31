@@ -1,12 +1,11 @@
 table, th, td {
-    border-collapse: collapse;
     border: 1px solid black;
-    text-align: center;
+    border-collapse: collapse;
+    margin:  0px auto;
 }
 
-.c1 {
-    background-color: red;
-    color: white;
+h1 {
+    text-align: center;
 }
 
 img {
@@ -14,11 +13,18 @@ img {
     height: 50px;
 }
 
-.c2 {
-    background-color: blue;
+.c1 {
+    background-color: red;
+    color: white;
 }
 
-ul {
+#filaGB>.GB{
+    font-size: 40px;
+    text-align: center;
+    background-color: grey;
+}
+
+#filacolor ul {
     color: red;
     text-align: left;
 }
@@ -29,17 +35,11 @@ ul {
     padding-bottom: 35px;
 }
 
-.f2 {
-    background-color: grey;
-    font-size: 30px;
-    text-align: center;
-}
-
-.h1 {
-    text-align: center;
-}
-
 #c3 {
     font-size: 100%;
     text-align: center;
+}
+
+.c2 {
+    background-color: blue;
 }

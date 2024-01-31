@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset=" UTF-8">
     <meta name="viewport" content="width=device=width, initial-sacale=1.0">
     <title>tablas</title>
     <link rel="stylesheet" href="tablasestilos.css">
 </head>
-<h1 class="h1">Ejercicio practico con Tablas</h1>
-<body style="text-align: center;">    
+<h1>Ejercicio practico con Tablas</h1>
+
+<body style="text-align: center;">
     <table>
         <tbody>
             <tr>
-                <td></td>
+                <td id="blanco"></td>
                 <td colspan="3" class="c2">
                     <img src="fotopractica.PNG">
                 </td>
                 <td colspan="3" class="c2">
-                    <img src="fotopractica2.PNG" >
+                    <img src="fotopractica2.PNG">
                 </td>
             </tr>
-            <tr>
+            <tr id="filaGB">
                 <th class="c1" id="c3">
-                   Capacidad
-                </td>
-                <td class="f2">2GB</td>
-                <td class="f2">4GB</td>
-                <td class="f2">8GB</td>
-                <td class="f2">32GB</td>
-                <td class="f2">2GB</td>
+                    Capacidad
+                </th>
+                <td class="GB">2GB</td>
+                <td class="GB">4GB</td>
+                <td class="GB">8GB</td>
+                <td class="GB">32GB</td>
+                <td class="GB">2GB</td>
             </tr>
-            <tr>
-                <td class="c1" class="va">
+            <tr id="filacolor">
+                <td class="c1">
                     <b>Colores</b>
                 </td>
-                <td class="va">
+                <td>
                     <b>Blanco</b>
                 </td>
-                <td class="va">
+                <td>
                     <ul style="list-style-type: disc;" class="ul">
                         <li>Negro</li>
                         <li>Rosa</li>
@@ -55,15 +57,17 @@
             </tr>
             <tr>
                 <td class="c1">
-                    <b >Pantalla</b>
+                    <b>Pantalla</b>
                 </td>
-                <th colspan="3" class="c2">3 pulgadas</th>
+                <td colspan="3" class="c2">
+                    <b>3 pulgadas</b>
+                </td>
                 <td colspan="3" class="c2">
                     <b>7 pulgadas</b>
                 </td>
             </tr>
             <tr>
-                <th rowspan="2" class="c1">Tiempo de carga</th>
+                <td rowspan="2" class="c1">Tiempo de carga</td>
                 <td colspan="3" rowspan="2" class="c2">
                     <b>1 hora</b>
                 </td>
