@@ -1,0 +1,48 @@
+#punto {
+    color: green;
+
+}
+#nombre {
+    padding-left: 0px;
+    font-family: sans-serif;
+    width: auto;
+  }
+#frase1{
+    position: relative;
+    padding-top: 0px;
+}
+.contacto {
+    text-align:right;
+
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+body{
+    padding-left: 40px;
+    font-family: sans-serif;
+  }
+main>div {
+    background-color: grey;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    color: white;
+}
+ul>nav{
+    color: white;
+
+}
+#img1,#text1 {
+    text-align: left;
+}
+#img2,#text2 {
+    text-align: center;
+
+}
+#img3,#text3 {
+    text-align: right;
+}
+nav{
+    background-color: rgb(37, 36, 36);
+}

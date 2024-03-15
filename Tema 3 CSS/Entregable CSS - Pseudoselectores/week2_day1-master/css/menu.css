@@ -3,31 +3,31 @@
 /* ------------------------------------------ */
 
 /* Selecciona el elemento <body> */
-{
+body{
   padding-left: 40px;
   font-family: sans-serif;
 }
 
 /* Selecciona todos los elementos <ul> */
-{
+ul{
   padding-left: 0;
   list-style: none;
 }
 
 /* Selecciona todos los elementos <a> */
-{
+a{
   display: block;
 }
 
 /* Selecciona todos los <ul> que son hijos directos de un elemento <div> que a su vez es hijo directo de <body> */
-{
+body>div>ul{
   width: 300px;
   border-radius: 10px;
   background-color: #ddd;
 }
 
 /* Selecciona un elemento <ul> anidado dentro de otro <ul> */
-{
+ul>ul{
   position: relative;
   z-index: 5;
   border-radius: 6px;
@@ -39,7 +39,7 @@
 }
 
 /* Selecciona un elemento <div> que es hijo directo de un elemento <li> */
-{
+li>div{
   padding: 12px;
 }
 
