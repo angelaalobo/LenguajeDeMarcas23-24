@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row; 
+/* el resto de opciones de flex direction son 'row-reverse'(se coloca en la derecha y se ordena de derecha a izquierda) 'column'(ajustará los elementos flexibles en columna, de arriba a abajo.
+) 'column-reverse'(igual pero de abajo a arriba)*/
+    flex-wrap: nowrap;
+/*valor por defecto y fuerza para que siempre los elementos estén en la misma línea aunque esto suponga que se salgan del contenedo*/
+/*otras opciones: wrap(provoca un salto de línea si la anchura de los elementos es superior a la del contenedor) y wrap-reverse(lo mismo pero de abajo a arriba)*/
+/*El resto de propiedades estan en el documento de google*/
+}
+div div{
+   background-color: red; 
+}
